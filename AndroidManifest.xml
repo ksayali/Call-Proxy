@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="callproxy.dashboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="Call Proxy" >
+        <activity
+            android:label="Call Proxy"
+            android:name=".LoginActivity" 
+            android:screenOrientation= "portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Call Logs"
+            android:name=".PrivacyEraserActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Manage Black/White List"
+            android:name=".ManageListActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="View Blocked Calls/SMS"
+            android:name=".ViewBCMActivity"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="View Blocked SMS"
+            android:name="ManageBlockedMsgActivity"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Configure Private Space"
+            android:name=".PSConfigure"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Private Messages"
+            android:name=".ViewPMsgDetails" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Contacts"
+            android:name=".PContacts" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Profile Details"
+            android:name=".ProfileDetails" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Profile Settings"
+            android:name=".ProfileSettings"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Contacts"
+            android:name=".PSConfigure" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Reply"
+            android:name=".SMSReplyActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Call Logs"
+            android:name=".PCallLogs" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Private Call Logs"
+            android:name=".PSCallLogDisp" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Private Space"
+            android:name=".PrivateSpaceActivity"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Private Messages"
+            android:name=".PSMSGDisp" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Call Logs"
+            android:name=".PCallLogs" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Input Number"
+            android:name=".PInputNumber" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Dashboard"
+            android:name=".DashboardActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Message Details"
+            android:name=".ViewMsgDetails" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Manage Black/White List"
+            android:name=".ManageListActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Black List"
+            android:name=".BlackList"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Input Number"
+            android:name=".BInputNumber" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Call Logs"
+            android:name=".BLCallLogDisp" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Contacts"
+            android:name=".BLContactsDisp"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Edit Number"
+            android:name=".EditContact" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="White List"
+            android:name=".WhiteList" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Input Number"
+            android:name=".WInputNumber" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Call Logs"
+            android:name=".WLCallLogDisp"
+            android:screenOrientation= "portrait" />
+        <activity
+            android:label="Contacts"
+            android:name=".WLContactsDisp" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Edit Number"
+            android:name=".WLEdit" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Blocked Call Logs"
+            android:name=".BlockCallActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Input Number"
+            android:name=".TInputNumber" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Contacts"
+            android:name=".ContactsDB" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="New Profile"
+            android:name=".NewProfileActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Settings"
+            android:name=".SettingsActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Settings"
+            android:name=".MainActivity" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="InsertContacts"
+            android:name=".TInsertContacts" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="InsertContacts"
+            android:name=".TInsCallLog" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Profile Contacts"
+            android:name=".TBDispContacts" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Input Number"
+            android:name=".TInputnumber" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Backup"
+            android:name=".Backup" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Restore"
+            android:name=".Restore" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Data Management"
+            android:name=".Backup_Restore_Activity" />
+        
+        <activity
+            android:label="Login"
+            android:name=".PrivateSpaceLogin" />
+        
+        <activity
+            android:label="Change Password"
+            android:name=".ChangePasswd" />
+        
+        <activity
+            android:label="Backup1"
+            android:name=".Backup1" 
+            android:screenOrientation= "portrait"/>
+        <activity
+            android:label="Restore1"
+            android:name=".Restore1" 
+            android:screenOrientation= "portrait"/>
+
+        <service android:name=".ProfileService" >
+        </service>
+
+        <receiver android:name="CallBlock" >
+            <intent-filter >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:exported="true"
+            android:name="BlockSMS" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+</manifest>
