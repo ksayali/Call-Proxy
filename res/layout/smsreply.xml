@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd_2"
+    android:orientation="vertical" 
+    android:layoutAnimation="@anim/layout_animation_row_right_slide">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"
+        android:text="To:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtPhoneNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#D8000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPhoneNo"
+        android:layout_marginTop="41dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#D8000000"
+        android:textColor="#FFFFFF"
+        android:minHeight="170dp"
+        android:layout_marginTop="38dp"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="Send SMS" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

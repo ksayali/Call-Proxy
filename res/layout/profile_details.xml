@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:background="@drawable/backgrd">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:paddingTop="15dip">
+
+		<TextView android:id="@+id/Dname" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Profile Name:"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView android:id="@+id/DTname" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:paddingTop="15dip">
+
+		<TextView android:id="@+id/Tname" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Start Time : "
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView android:id="@+id/Dstarttime" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="00:00 "
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:paddingTop="15dip">
+
+		<TextView android:id="@+id/Tname" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="End Time : "
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView android:id="@+id/Dendtime" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="00:00 "
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:paddingTop="15dip" android:orientation="horizontal">
+
+		<Button android:id="@+id/ViewContacts" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:layout_weight="0.16" android:paddingTop="5dip" android:text="View Contacts" />
+
+		<Button android:id="@+id/Ddays" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:layout_weight="0.22" android:paddingTop="5dip" android:text="Days Selected" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:orientation="horizontal" android:paddingTop="10dip">
+
+		<Button android:id="@+id/adeactive" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:layout_weight="0.10" android:paddingTop="5dip" android:text="Deactivate" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bbb"
+    android:layoutAnimation="@anim/layout_animation_table"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/restore"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="128dp"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="Restore Data"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/backup"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBaseline="@+id/restore"
+        android:layout_alignBottom="@+id/restore"
+        android:layout_alignParentRight="true"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="Backup Data"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/restore"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/backup"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/back1" />
+
+</RelativeLayout>

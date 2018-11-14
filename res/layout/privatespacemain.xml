@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd"
+    android:layoutAnimation="@anim/layout_animation_table" >
+
+    <Button
+        android:id="@+id/ViewM"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="View Private Messages"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewC"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/ViewM"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="View Private Call Logs"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Pconf"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/ViewM"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="Add Private Contacts"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/Pconf"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/addnew" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/Pconf"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/Pconf"
+        android:src="@drawable/pslogs" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/ImageView01"
+        android:layout_alignTop="@+id/ViewM"
+        android:src="@drawable/pssms" />
+
+    <Button
+        android:id="@+id/ViewSM"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBaseline="@+id/viewC"
+        android:layout_alignBottom="@+id/viewC"
+        android:layout_alignParentLeft="true"
+        android:background="@layout/buttonshape"
+        android:gravity="center|bottom"
+        android:text="View Private Sent SMS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/ViewSM"
+        android:layout_marginLeft="27dp"
+        android:src="@drawable/prissms" />
+
+</RelativeLayout>

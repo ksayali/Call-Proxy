@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/picture" >
+
+       <ListView
+            android:id="@+id/namelist"
+            android:layout_width="103dp"
+            android:layout_height="440dp"
+            android:layout_weight="0.40" >
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/phonelist"
+            android:layout_width="133dp"
+            android:layout_height="440dp"
+            android:layout_weight="0.84" >
+
+        </ListView>
+    
+
+    <Button
+        android:id="@+id/checkdone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Done" />
+  </LinearLayout>
